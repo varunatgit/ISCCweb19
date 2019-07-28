@@ -13,6 +13,121 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<style>
+		body  {
+		background-image: url("https://media.giphy.com/media/ZFRJbkRKJuUPheDykE/giphy.gif");
+		background-color: #cccccc;
+	  }
+
+	  body {
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  margin-bottom: 30px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div > h1 {
+  font-size: 1.8rem;
+}
+
+nav > p {
+  cursor: pointer;
+}
+.pill-black, .pill-white {
+  border: 0.5px solid;
+  border-radius: 5px;
+  text-align: center;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.pill-black {
+  background-color:white;
+  color: #FFFFFF;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+}
+
+/* Customizations of Bootstrap classes */
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+.col-sm-4 p {
+  margin: 25px 20px 15px;
+  min-width: 60px;
+  padding: 1px;
+}
+
+section.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  height: 350px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/buildawebsite.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron h2 {
+  background-color: #FFFFFF;
+  display: inline-block;
+  color: #F06529;
+  font-weight: 700;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+.jumbotron h3 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.btn-primary {
+  color: #2e6da4;
+  background-color: #FFFFFF;
+}
+
+.col-sm-1 img {
+  min-width: 32px;
+  min-height: 33px;
+  background: rgb(151, 31, 115);
+}
+
+	  </style>
 </head>
 
 <body>
@@ -27,7 +142,7 @@
 		<div class="logo_container mr-auto">
 			<div class="logo">
 <a href="#">Innerve19<span>.</span></a></div></div><!-- Main Navigation --><nav class="main_nav justify-self-end"><ul class="nav_items">
-<li class="active"><a href="#"><span>home</span></a></li><li><a href="events.html"><span>events</span></a></li><li><a href="contact.html"><span>contact</span></a></li></ul></nav><!-- Hamburger -->
+<li class="active"><a href="#"><span>home</span></a></li><li><a href="events.html"><span>events</span></a></li><li><a href="contact.html"><span>contact</span></a></li><li><a href="login.html"><span>login/signup</span></a></li><li><a href="gallery.html"><span>Gallery</span></a></li></ul></nav><!-- Hamburger -->
 <div class="hamburger_container"><span class="hamburger_text">Menu</span><span class="hamburger_icon"></span>
 </div></header><!-- Menu --><div class="fs_menu_overlay"></div>
 	<div class="fs_menu_container"><div class="fs_menu_shapes"><img src="images/menu_shapes.png" alt=""></div>
@@ -159,7 +274,7 @@
 						<!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 						<div class="icon_container d-flex flex-column justify-content-end">
 													</div>
-						<h3>Know our theme?</h3> </div>	</div>	</div></div></div><!-- About -->
+						<h3 style="color:white">Know our theme?</h3> </div>	</div>	</div></div></div><!-- About -->
 
 <div class="about prlx_parent"><!-- https://unsplash.com/@nativemello -->
 <div class="about_background prlx" style="background-image:url(images/tech10.jpg)"></div><div class="about_shapes"><img src="images/about_shapes.png" alt=""></div>
@@ -179,7 +294,7 @@ Get ready for the biggest edition of this tech fest yet. It's jam packed with ne
 </div></div></div></div></div><!-- Testimonials --><div class="testimonials">
 		<div class="container">
 <div class="row"><div class="col-lg-6 offset-lg-3 text-center section_title section_title_dark">
-					<h2>Our Sponsors<span>I</span></h2>
+					<h2 style="color:white">Our Sponsors<span>I</span></h2>
 				</div>
 			</div>
 			<div class="row">
@@ -285,7 +400,7 @@ Get ready for the biggest edition of this tech fest yet. It's jam packed with ne
 </div>
 
 </div><div class="row">
-<div class="col text-center"><div class="button services_button"><a href="events.html" class="d-flex flex-row align-items-center justify-content-center">
+<div class="col text-center"><div class="button services_button"><a href="eventsdd.html" class="d-flex flex-row align-items-center justify-content-center">
 discover<img src="images/arrow_right.svg" alt=""></a></div></div></div></div></div>
 
 	<!-- Clients -->
@@ -321,7 +436,7 @@ discover<img src="images/arrow_right.svg" alt=""></a></div></div></div></div></d
 <p>The most innovative set of problems are coming to your way in our technical Fest.</p>
 					<div class="button contact_button">
 						<a href="contact.html" class="d-flex flex-row align-items-center justify-content-center">contact<img src="images/arrow_right.svg" alt=""></a>
-					</div>
+					</div>				
 				</div>
 			</div>
 		</div>
@@ -329,9 +444,24 @@ discover<img src="images/arrow_right.svg" alt=""></a></div></div></div></div></d
 
 	<!-- Footer -->
 
+
 	
 
 </div>
+
+
+
+</div>
+<footer class="container">
+  <div class="row">
+	<p class ="col-sm-4" class="col-sm-1">Innerve2k19</p>
+	<ul class ="col-sm-8 text-right">
+	  <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook-grey.svg" /> </li>
+	 <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter-grey.svg"/></li>
+	 <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram-grey.svg"/></li>
+	 
+	</ul>
+  </div>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
@@ -345,6 +475,8 @@ discover<img src="images/arrow_right.svg" alt=""></a></div></div></div></div></d
 <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="plugins/easing/easing.js"></script>
 <script src="js/custom.js"></script>
+
+
 </body>
 
 </html>
